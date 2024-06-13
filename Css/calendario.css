@@ -223,7 +223,8 @@ dialog::backdrop {
 }
 
 dialog{
-  margin: 35vh;
+  font-size: 25px;
+  margin: 30vh;
   padding: 40px;
   background-color: #155c33;
   border: none;
@@ -236,9 +237,9 @@ dialog p{
   padding: 5px;
 }
 
+
 dialog h1{
   padding-bottom: 3px;
-  padding-left: 25px;
 }
 
 .modal-pos{
@@ -254,6 +255,78 @@ dialog h1{
   td {
     font-weight: 500;
     cursor: pointer;
+  }
+
+  .info main .botao-rmd button{
+    background: #155c33;
+    width: 30vw;
+    border:1px solid rgba(0,0,0,0.2);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
+    cursor: pointer;
+  }
+  
+  .info main .agends button:hover {
+    background: rgba(0,0,0,0.3);
+  }
+
+  .container-popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    align-items: center;
+    width: 70vw;
+    height: 120vh;
+    justify-content: center;
+  }
+
+  .container-popup.active{
+    display: flex;
+  }
+
+  .popup{
+    font-size: 20px;
+    margin: 20vh;
+    padding: 40px;
+    background-color: #155c33;
+    border: none;
+    border-radius:  .5rem;
+    box-shadow: 0 0 1em rgb( 0 0 0 / .3);
+    width: 1000px; 
+
+  }
+
+  .popup button:hover{
+    background: none;
+  }
+
+  .popup::backdrop {
+    background-color: rgb(0 0 0 / .3);
+  }
+
+  .popup img{
+    width: 10vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+  }
+
+  .popup button{
+    color: #fff;
+    font-size: 2.5rem;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    left: 50rem;
   }
   
   td.teste::after {
