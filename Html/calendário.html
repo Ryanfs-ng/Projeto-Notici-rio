@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/Css/calendario.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  </head>
+  <body>
+    <div class="content">
+      <section class="info">
+        <header>
+            <a class="logo" href="index.html">
+                <img src="../Assets/img/logopng.png" width="15%" height="">
+            </a>
+        	<div class="image"><img src="/Assets/cloudy-night-1.svg" class="clima" /></div>
+        	<h1 class="temp">18°C</h1>
+        	<span>CÉU LIMPO COM POUCAS NUVENS</span>
+        </header>
+        <main>
+        	<div class="agends">
+        		<span>Programações para <strong>Junho de 2024</strong>:</span>
+        		<div>
+        			<a>
+        				<span>03/06</span>
+        				<p>Conexão Ambiental</p>
+        			</a>
+							<a>
+								<button><span>08/06</span></button> 
+								<p>Show Natiruts</p>
+              
+                <div class="modal-pos">
+                        <dialog>
+                          <h1>Show do Natiruts</h1>
+                            <p>
+                              - O grupo musical realiza a última turnê após quase 30 anos de carreira. 
+                            Brasília receberá o show no próximo sábado (8/6), na Arena BRB. Quem doar os alimentos 
+                          vai poder retirar até dois ingressos. A ação é uma parceria entre o Natiruts e a Setur-DF.
+                        <br></p>
+                      <p>
+                      - Localização: Arena BRB <br></p>
+                      <p>
+                        - Ingressos: https://www.eventim.com.br/artist/natiruts-01/
+                      </p>
+                  </dialog>
+                </div>
+              </a>             <a>
+								<span>09/06</span>
+								<p>Orquestra Sinfônica do Teatro Nacional</p>
+							</a>
+                          
+						
+					
+						</div>
+          	</div>
+        </main>
+
+      </section>
+      <section class="calendar">
+        <header>
+          <span id="prev-month">
+            <svg width="19" height="30" viewBox="0 0 19 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14.3333 5L4.33334 15L14.3333 25" stroke="white" stroke-width="6" stroke-linecap="square"/>
+            </svg>
+          </span>
+          <p><span id="month">JUN</span> <span id="year">2024</span></p>
+          <span id="next-month">
+            <svg width="19" height="30" viewBox="0 0 19 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4.66669 25L14.6667 15L4.66669 5" stroke="white" stroke-width="6" stroke-linecap="square"/>
+            </svg>              
+          </span>
+        </header>
+        <main>
+          <table id="tableDays">
+            <tr>
+              <th>DOM</th>
+              <th>SEG</th>
+              <th>TER</th>
+              <th>QUA</th>
+              <th>QUI</th>
+              <th>SEX</th>
+              <th>SAB</th>
+            </tr>
+            <tr>
+              <td class="outherMount">25</td>
+              <td class="outherMount">26</td>
+              <td class="outherMount">27</td>
+              <td class="outherMount">28</td>
+              <td class="outherMount">29</td>
+              <td class="outherMount">30</td>
+              <td>01</td>
+            </tr>
+            <tr>
+              <td>02</td>
+              <td class="teste">03</td>
+              <td>04</td>
+              <td>05</td>
+              <td>06</td>
+              <td>07</td>
+              <td class="teste">08</td>
+            </tr>
+            <tr>
+              <td class="teste">09</td>
+              <td>10</td>
+              <td>11</td>
+              <td>12</td>
+              <td>13</td>
+              <td>14</td>
+              <td>15</td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td>17</td>
+              <td>18</td>
+              <td>19</td>
+              <td>20</td>
+              <td>21</td>
+              <td>22</td>
+            </tr>
+            <tr>
+              <td>23</td>
+              <td>24</td>
+              <td>25</td>
+              <td>26</td>
+              <td>27</td>
+              <td>28</td>
+              <td>29</td>
+            </tr>
+            <tr>
+              <td>30</td>
+              <td>31</td>
+              <td class="outherMount">01</td>
+              <td class="outherMount">02</td>
+              <td class="outherMount">03</td>
+              <td class="outherMount">04</td>
+              <td class="outherMount">05</td>
+            </tr>
+          </table>
+        </main>
+
+        <footer>
+        </footer>
+      </section>
+    </div>
+    <script src="../modal.js"></script>
+  </body>
+</html>
