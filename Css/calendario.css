@@ -302,7 +302,7 @@ dialog h1{
   }
 
   .popup button:hover{
-    background: none;
+    background:none;
   }
 
   .popup::backdrop {
