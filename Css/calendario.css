@@ -328,6 +328,8 @@ dialog h1{
     border: none;
     left: 50rem;
   }
+
+
   
   td.teste::after {
     content: " ";
